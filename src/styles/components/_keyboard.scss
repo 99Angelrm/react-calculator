@@ -1,0 +1,30 @@
+.keyboard__layout {
+    background-color: $primary;
+    border-radius: 0 0 10px 10px;
+    height: 45vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.keyboard__button-key {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    font-size: xx-large;
+    &:hover{
+        background-color: darken($color: $primary, $amount: 20);
+    }
+}
+
+.keyboard__igual {
+    background-color: $secondary;
+    border-radius: 0 0 10px 0px;
+    &:hover{
+        background-color: darken($color: $secondary, $amount: 20);
+    }
+}

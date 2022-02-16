@@ -1,0 +1,52 @@
+*,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Courier New", Courier, monospace;
+}
+
+@function margin($value) {
+    @return $value * 5px;
+}
+
+.mt-1 {
+    margin-top: margin(1);
+}
+
+.mt-2 {
+    margin-top: margin(2);
+}
+
+.mt-5 {
+    margin-top: margin(5);
+}
+
+.mb-1 {
+    margin-bottom: margin(1);
+}
+
+.mb-5 {
+    margin-bottom: margin(5);
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+@mixin tablet {
+    @media only screen and (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media only screen and (min-width: 992px) {
+        @content;
+    }
+}
+
+@mixin large {
+    @media only screen and (min-width: 1200px) {
+        @content;
+    }
+}

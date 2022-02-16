@@ -1,0 +1,13 @@
+.display__content {
+    align-items: center;
+    display: flex;
+    height: 20vh;
+    justify-content: end;
+    width: 100%;
+    font-size: 300%;
+    font-weight: bolder;
+    background-color: white;
+    p {
+        margin: 1rem;
+    }
+}

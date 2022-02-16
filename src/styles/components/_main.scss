@@ -1,0 +1,17 @@
+.main__background {
+    align-items: center;
+    background-color: $background;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+}
+.main__calculator {
+    height: 90vh;
+    width: 80vw;
+    border-radius: 10px;
+    @include desktop {
+        height: 80vh;
+        width: 25vw;
+    }
+}

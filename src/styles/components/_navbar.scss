@@ -1,0 +1,18 @@
+.navbar__container {
+    align-items: center;
+    background-color: $secondary;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    width: 100%;
+}
+.navbar_content {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+    color: white;
+    font-size: x-large;
+}
